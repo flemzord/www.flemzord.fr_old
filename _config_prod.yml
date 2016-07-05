@@ -1,0 +1,15 @@
+# Site settings
+title: Flemzord
+description: "Journal d'un OPS"
+url: "http://www.flemzord.fr"
+baseurl: ""
+
+# Sheekyll settings
+logoUrl: http://www.flemzord.fr/img/logo.jpg
+email: blog@flemzord.fr
+homeArticle: 5
+twitterUsername: Flemzord
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title

@@ -4,12 +4,11 @@ title: Home
 ---
 <header>
   <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
 </header>
 
 <div id="list-articles">
   <section>
-    <h2>Last articles</h2>
+    <h2>Dernier articles</h2>
     <ul>
       {% for post in site.posts | limit:site.homeArticle %}
       <li class="article">
