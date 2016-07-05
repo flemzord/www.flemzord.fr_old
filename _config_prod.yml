@@ -12,4 +12,4 @@ twitterUsername: Flemzord
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:title.html
+permalink: /:year/:title
