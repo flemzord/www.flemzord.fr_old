@@ -87,7 +87,7 @@ body {
   padding-bottom: 50px;
 }
 #footer-home li {
-  display:inline-block; 
+  display:inline-block;
   line-height:50px;
   font-size: 20px;
   margin: 0 20px;
@@ -168,6 +168,11 @@ header p {
 #list-articles h2 {
   font-size:3rem;
   margin:30px 0 20px -20px;
+}
+.ayear {
+  font-size:3rem;
+  margin:30px 0 40px -20px;
+  text-align: left;
 }
 article img {
   display: block;
@@ -261,7 +266,7 @@ article h2:before {
 #content header {
   padding-top: 178px;
 }
-/** List **/ 
+/** List **/
 #post-content ul, #post-content ol {
   margin: -10px 0 0 85px;
 }
@@ -353,7 +358,7 @@ code {
   border: 1px solid #DDD;
 }
 
-@media only screen and (max-width: 768px) {		
+@media only screen and (max-width: 768px) {
   .ten {
     width:auto !important;
   }

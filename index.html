@@ -13,8 +13,8 @@ title: Home
     <ul>
       {% for post in site.posts | limit:site.homeArticle %}
       <li class="article">
-      <a href="{{ post.url | prepend : site.baseurl }}">{{post.title }} 
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %B %Y" }}</time>
+      <a href="{{ post.url | prepend : site.baseurl }}">{{post.title }}
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %m %Y" }}</time>
       </a>
       </li>
       {% endfor %}
@@ -24,4 +24,3 @@ title: Home
 <footer class="article-footer home-footer">
   <a href="{{ site.baseurl}}/archives">Previous articles…</a>
 </footer>
-

@@ -1,16 +1,15 @@
 # Site settings
-title: Sheekyll
-description: "Here comes the description of your website"
-url: "http://yourdomain.com"
+title: Flemzord
+description: "Journal d'un OPS"
+url: "http://127.0.0.1:4000"
 baseurl: ""
 
 # Sheekyll settings
-logoUrl: http://placehold.it/160
-email: your-email@domain.com
+logoUrl: https://pbs.twimg.com/profile_images/641139935467204608/k7C6u9cj.jpg
+email: blog@flemzord.fr
 homeArticle: 5
-twitterUsername: jbleuzen
-disqusUsername: XXX
+twitterUsername: Flemzord
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:title
